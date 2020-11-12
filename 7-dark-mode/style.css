@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 4rem;
+    text-align: center;
+    box-sizing: border-box;
+    position: relative;
+    transition: background 0.3s linear, color 0.3s linear;
+}
+
+body.dark {
+    background-color: #111;
+    color: #fff;
+}
+
+.switch {
+    position: fixed;
+    top: 3%;
+    right: 3%;
+    display: inline;
+    transition: background .1s, color 0.3s linear;
+}
+
+body.dark .switch {
+    background-color: #111;
+}
+
+label {
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+input {
+    visibility: hidden;
+}

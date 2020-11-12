@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+}
+
+.container h2,
+p {
+    margin-bottom: 30px;
+}
+
+.container img {
+    width: 500px;
+    transition: all .3s ease-in;
+}
+
+/* .container img:hover {
+    transform: scale(1);
+} */
